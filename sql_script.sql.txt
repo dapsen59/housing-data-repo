@@ -7,9 +7,9 @@ CREATE TABLE IF NOT EXISTS Tarrant_Residential (
         Owner_CityState VARCHAR,
         Situs_Address VARCHAR,
         Property_Class VARCHAR,
-        UNIQUE  (Account_Num)
+        CONSTRAINT acct_uniq UNIQUE  (Account_Num)
     );
     
     
 database creation script
-CREATE TABLE IF NOT EXISTS Tarrant_Residential (Account_Num Int, Owner_Name VARCHAR, Owner_Address VARCHAR, Owner_CityState VARCHAR, Situs_Address VARCHAR, Property_Class VARCHAR, UNIQUE (Account_Num)  );
+CREATE TABLE IF NOT EXISTS Tarrant_Residential (Account_Num Int, Owner_Name VARCHAR, Owner_Address VARCHAR, Owner_CityState VARCHAR, Situs_Address VARCHAR, Property_Class VARCHAR, CONSTRAINT acct_uniq UNIQUE  (Account_Num)  );
