@@ -18,7 +18,7 @@ irisData.head()
 conn_params_dic = {
     "host"      : "localhost",
     "database"  : "irisdb",
-    "user"      : "backPASS?!1",
+    "user"      : "postgress",
     "password"  : "Passw0rd"
 }
 
